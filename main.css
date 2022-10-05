@@ -9,11 +9,15 @@ body{
     width:200px;
     height:200px;
   border-radius: 100px;
+  box-shadow:  0px 0px 200px 100px white, 0px 0px 200px 100px grey,0px 0px 200px 100px black;
 }
 .name{
     color:white;
     font-size:30px;
     margin-bottom:30px;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 2px orange;
+
 }
 a{
     color:white;
@@ -28,9 +32,24 @@ a{
     margin-bottom:30px;
     
 }
+.hover-color-icon:hover {
+    background-color:orange;
+    transition: 0.7s;
+    border:black;
+}
 
 .button{
     background-color:black;
     border:white solid 2px;
-    margin:10px;
+    margin:15px;
+    margin-left: 200px;
+    margin-right:200px;
+    box-shadow:  -1px 0px 2000px 1px orange,-1px 0px 2000px 1px grey ;
+    font-family: 'Nunito', sans-serif;
+
+}
+.button:hover {
+    background-color:orange;
+    transition: 0.7s;
+    border:black;
 }
